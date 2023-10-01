@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+	--white: #e5e7eb;
+	--black: #000;
+	--blacka: rgb(18 18 18);
+	--dark-blue: #333c56;
+	--whiteblue1: #b5caf8;
+    --darkblue1: #002f69;
+    --blue: #349cff;
+    --blue-hover: rgb(13 113 207);
+    --black: #000;
+
+
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+	background: var(--dark-blue);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--blue-hover);
+/*  width: 20px;*/
+}
+::-scrollbar-track{
+	background: var(--dark-blue);
+}
